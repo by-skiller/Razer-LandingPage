@@ -1,0 +1,105 @@
+@media screen and (max-width: 700px) {
+
+    body {
+        background-color: #161b1b;
+        width: 400px;
+        font-family: 'Konkhmer Sleokchher', cursive;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    
+    main {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Abel', sans-serif;
+        transition-duration: 0.3s;
+    }
+
+    nav a:hover {
+        margin: 0;
+        border: 1 solid green;
+    }
+    
+    #principal {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+    
+
+    #principal h1 {
+        line-height: 30px;
+        font-size: 40px;
+        color: #02733E;
+    }
+    
+    #principal p {
+       font-size: 20px;
+       text-align: center;
+    }
+    
+    #principal h2 {
+        text-align: center;
+        color: #02733E;
+        font-family: 'Jost', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 80px;
+        margin-bottom: 10px;
+    }
+    
+    #principal a {
+        text-decoration: none;
+        border-radius: 30px;
+        padding: 5px 20px;
+        margin: 5px;
+        font-size: 20px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        transition-duration: 0.3s;
+    }
+
+    #icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #icons p{
+        font-family: 'Jost', sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        color: #253f41;
+    }
+    
+    #face img{
+        margin: 5px;
+    }
+
+    aside img {
+        width: 250px;
+        margin-top: 50px;
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    
+    aside img:hover {
+        width: 250px;
+    }
+
+ }

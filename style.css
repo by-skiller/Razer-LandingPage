@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jost:wght@100;200;300&family=Konkhmer+Sleokchher&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #161b1b;
+    width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav a {
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    transition-duration: 0.3s;
+}
+
+nav a:hover {
+    margin: 33px;
+    border-bottom: 2px solid #02733E;
+}
+
+#principal {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+#text {
+    margin-top: 100px;
+}
+
+#principal h1 {
+    line-height: 30px;
+    font-size: 60px;
+    color: #02733E;
+}
+
+#principal p {
+    text-align: left;
+   font-size: 35px;
+}
+
+#principal h2 {
+    text-align: left;
+    color: #02733E;
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 140px;
+    margin-bottom: 30px;
+}
+
+#principal a {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    transition-duration: 0.3s;
+}
+
+#principal a:hover {
+    background-color: #02733E;
+    color: white;
+    border: none;
+}
+
+#more {
+    color: #2f4f52;
+    border: 2px solid #253f41;
+}
+
+#cart {
+    background-color: rgb(172, 172, 172);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+#cart:hover {
+    color: white;
+}
+
+aside {
+    margin-right: 90px;
+    margin-top: -20px;
+    transition-duration: 0.3s;
+}
+
+aside img {
+    transition-duration: 0.3s;
+}
+
+aside img:hover {
+    width: 580px;
+}
+
+#icons {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+#icons p{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #253f41;
+}
+
+#face img{
+    margin: 5px;
+}
